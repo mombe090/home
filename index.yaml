@@ -3,12 +3,14 @@ entries:
   helm-chart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-01T09:50:07.301859-04:00"
+    created: "2022-06-01T10:16:42.901147-04:00"
     description: A Helm chart for Kubernetes
     digest: dab54695cccfdae45d2c66848a7cd8cb3d3f21929adc6f94af654cbe4ae0b78a
     name: helm-chart-test
     type: application
+    sources:
+      - https://github.com/mombe090/home
     urls:
-    - https://mombe090.github.io/charts/helm-chart-test-0.1.0.tgz
+    - https://mombe090.github.io/home/helm-chart-test-0.1.0.tgz
     version: 0.1.0
-generated: "2022-06-01T09:50:07.301124-04:00"
+generated: "2022-06-01T10:16:42.900713-04:00"
