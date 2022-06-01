@@ -1,16 +1,14 @@
 apiVersion: v1
 entries:
-  helm-chart-test:
+  nginx:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-01T10:16:42.901147-04:00"
+    created: "2022-06-01T10:59:03.74308-04:00"
     description: A Helm chart for Kubernetes
-    digest: dab54695cccfdae45d2c66848a7cd8cb3d3f21929adc6f94af654cbe4ae0b78a
-    name: helm-chart-test
+    digest: 673d68d95efc768e66e800ba7b8a0cfb08ee22d9071f415bd13a34b183fea60f
+    name: nginx
     type: application
-    sources:
-      - https://github.com/mombe090/home
     urls:
-    - https://mombe090.github.io/home/helm-chart-test-0.1.0.tgz
-    version: 0.1.0
-generated: "2022-06-01T10:16:42.900713-04:00"
+    - https://mombe090.github.io/home/nginx-2.5.0.tgz
+    version: 2.5.0
+generated: "2022-06-01T10:59:03.740617-04:00"
