@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   nginx:
   - apiVersion: v2
+    appVersion: 1.19.0
+    created: "2022-06-01T12:10:29.030912-04:00"
+    description: A Helm chart for Kubernetes
+    digest: fed7c1d41eaaf24fb8f278c701a9215866f5d11f8d54e8ca95521b2184f9bb34
+    name: nginx
+    type: application
+    urls:
+    - https://mombe090.github.io/home/nginx-2.5.1.tgz
+    version: 2.5.1
+  - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-01T10:59:03.74308-04:00"
+    created: "2022-06-01T12:10:29.030342-04:00"
     description: A Helm chart for Kubernetes
     digest: 673d68d95efc768e66e800ba7b8a0cfb08ee22d9071f415bd13a34b183fea60f
     name: nginx
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://mombe090.github.io/home/nginx-2.5.0.tgz
     version: 2.5.0
-generated: "2022-06-01T10:59:03.740617-04:00"
+generated: "2022-06-01T12:10:29.026813-04:00"
